@@ -1,0 +1,203 @@
+﻿<Window x:Class="OresDatabase.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OresDatabase"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1080" Width="2080" Background="#252525">
+    <Grid>
+        <StackPanel Margin="50,50,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Button Style="{local:MultiStyle elementButton otherNonMetalColor}" Content="H"/>
+            <Button Style="{local:MultiStyle elementButton alkaliMetalsColor}" Content="Li"/>
+            <Button Style="{local:MultiStyle elementButton alkaliMetalsColor}" Content="Na"/>
+            <Button Style="{local:MultiStyle elementButton alkaliMetalsColor}" Content="K"/>
+            <Button Style="{local:MultiStyle elementButton alkaliMetalsColor}" Content="Rb"/>
+            <Button Style="{local:MultiStyle elementButton alkaliMetalsColor}" Content="Cs"/>
+            <Button Style="{local:MultiStyle elementButton alkaliMetalsColor}" Content="Fr"/>
+        </StackPanel>
+        <StackPanel Margin="160,50,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Rectangle Style="{StaticResource elementPlaceholder}"/>
+            <Button Style="{local:MultiStyle elementButton alkaliEarthMetalsColor}" Content="Be"/>
+            <Button Style="{local:MultiStyle elementButton alkaliEarthMetalsColor}" Content="Mg"/>
+            <Button Style="{local:MultiStyle elementButton alkaliEarthMetalsColor}" Content="Ca"/>
+            <Button Style="{local:MultiStyle elementButton alkaliEarthMetalsColor}" Content="Sr"/>
+            <Button Style="{local:MultiStyle elementButton alkaliEarthMetalsColor}" Content="Ba"/>
+            <Button Style="{local:MultiStyle elementButton alkaliEarthMetalsColor}" Content="Ra"/>
+        </StackPanel>
+        <StackPanel Margin="270,50,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Rectangle Style="{StaticResource elementPlaceholder}"/>
+            <Rectangle Style="{StaticResource elementPlaceholder}"/>
+            <Rectangle Style="{StaticResource elementPlaceholder}"/>
+            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Sc"/>
+            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Y"/>
+            <Button Style="{local:MultiStyle elementButton lanthanoidsColor}" Content=""/>
+            <Button Style="{local:MultiStyle elementButton actinoidsColor}" Content=""/>
+        </StackPanel>
+        <StackPanel Margin="380,50,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Rectangle Style="{StaticResource elementPlaceholder}"/>
+            <Rectangle Style="{StaticResource elementPlaceholder}"/>
+            <Rectangle Style="{StaticResource elementPlaceholder}"/>
+            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Ti"/>
+            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Zr"/>
+            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Hf"/>
+            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Rf"/>
+            <Button Style="{local:MultiStyle elementButton lanthanoidsColor}" Content="La"/>
+            <Button Style="{local:MultiStyle elementButton actinoidsColor}" Content="Ac"/>
+        </StackPanel>
+        <StackPanel Margin="490,50,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Rectangle Style="{StaticResource elementPlaceholder}"/>
+            <Rectangle Style="{StaticResource elementPlaceholder}"/>
+            <Rectangle Style="{StaticResource elementPlaceholder}"/>
+            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="V"/>
+            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Nb"/>
+            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Ta"/>
+            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Db"/>
+            <Button Style="{local:MultiStyle elementButton lanthanoidsColor}" Content="Ce"/>
+            <Button Style="{local:MultiStyle elementButton actinoidsColor}" Content="Th"/>
+        </StackPanel>
+        <StackPanel Margin="600,50,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Rectangle Style="{StaticResource elementPlaceholder}"/>
+            <Rectangle Style="{StaticResource elementPlaceholder}"/>
+            <Rectangle Style="{StaticResource elementPlaceholder}"/>
+            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Cr"/>
+            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Mo"/>
+            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="W"/>
+            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Sg"/>
+            <Button Style="{local:MultiStyle elementButton lanthanoidsColor}" Content="Pr"/>
+            <Button Style="{local:MultiStyle elementButton actinoidsColor}" Content="Pa"/>
+        </StackPanel>
+        <StackPanel Margin="710,50,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Rectangle Style="{StaticResource elementPlaceholder}"/>
+            <Rectangle Style="{StaticResource elementPlaceholder}"/>
+            <Rectangle Style="{StaticResource elementPlaceholder}"/>
+            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Mn"/>
+            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Tc"/>
+            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Re"/>
+            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Bh"/>
+            <Button Style="{local:MultiStyle elementButton lanthanoidsColor}" Content="Nd"/>
+            <Button Style="{local:MultiStyle elementButton actinoidsColor}" Content="U"/>
+        </StackPanel>
+        <StackPanel Margin="820,50,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Rectangle Style="{StaticResource elementPlaceholder}"/>
+            <Rectangle Style="{StaticResource elementPlaceholder}"/>
+            <Rectangle Style="{StaticResource elementPlaceholder}"/>
+            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Fe"/>
+            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Ru"/>
+            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Os"/>
+            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Hs"/>
+            <Button Style="{local:MultiStyle elementButton lanthanoidsColor}" Content="Pm"/>
+            <Button Style="{local:MultiStyle elementButton actinoidsColor}" Content="Np"/>
+        </StackPanel>
+        <StackPanel Margin="930,50,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Rectangle Style="{StaticResource elementPlaceholder}"/>
+            <Rectangle Style="{StaticResource elementPlaceholder}"/>
+            <Rectangle Style="{StaticResource elementPlaceholder}"/>
+            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Co"/>
+            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Rh"/>
+            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Ir"/>
+            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Mt"/>
+            <Button Style="{local:MultiStyle elementButton lanthanoidsColor}" Content="Sm"/>
+            <Button Style="{local:MultiStyle elementButton actinoidsColor}" Content="Pu"/>
+        </StackPanel>
+        <StackPanel Margin="1040,50,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Rectangle Style="{StaticResource elementPlaceholder}"/>
+            <Rectangle Style="{StaticResource elementPlaceholder}"/>
+            <Rectangle Style="{StaticResource elementPlaceholder}"/>
+            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Ni"/>
+            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Pd"/>
+            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Pt"/>
+            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Ds"/>
+            <Button Style="{local:MultiStyle elementButton lanthanoidsColor}" Content="Eu"/>
+            <Button Style="{local:MultiStyle elementButton actinoidsColor}" Content="Am"/>
+        </StackPanel>
+        <StackPanel Margin="1150,50,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Rectangle Style="{StaticResource elementPlaceholder}"/>
+            <Rectangle Style="{StaticResource elementPlaceholder}"/>
+            <Rectangle Style="{StaticResource elementPlaceholder}"/>
+            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Cu"/>
+            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Ag"/>
+            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Au"/>
+            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Rg"/>
+            <Button Style="{local:MultiStyle elementButton lanthanoidsColor}" Content="Gd"/>
+            <Button Style="{local:MultiStyle elementButton actinoidsColor}" Content="Cm"/>
+        </StackPanel>
+        <StackPanel Margin="1260,50,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Rectangle Style="{StaticResource elementPlaceholder}"/>
+            <Rectangle Style="{StaticResource elementPlaceholder}"/>
+            <Rectangle Style="{StaticResource elementPlaceholder}"/>
+            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Zn"/>
+            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Cd"/>
+            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Hg"/>
+            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Cn"/>
+            <Button Style="{local:MultiStyle elementButton lanthanoidsColor}" Content="Tb"/>
+            <Button Style="{local:MultiStyle elementButton actinoidsColor}" Content="Bk"/>
+        </StackPanel>
+        <StackPanel Margin="1370,50,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Rectangle Style="{StaticResource elementPlaceholder}"/>
+            <Button Style="{local:MultiStyle elementButton metalloidsColor}" Content="B"/>
+            <Button Style="{local:MultiStyle elementButton postTransitionMetalsColor}" Content="Al"/>
+            <Button Style="{local:MultiStyle elementButton postTransitionMetalsColor}" Content="Ga"/>
+            <Button Style="{local:MultiStyle elementButton postTransitionMetalsColor}" Content="In"/>
+            <Button Style="{local:MultiStyle elementButton postTransitionMetalsColor}" Content="Tl"/>
+            <Button Style="{local:MultiStyle elementButton postTransitionMetalsColor}" Content="Nh"/>
+            <Button Style="{local:MultiStyle elementButton lanthanoidsColor}" Content="Dy"/>
+            <Button Style="{local:MultiStyle elementButton actinoidsColor}" Content="Cf"/>
+        </StackPanel>
+        <StackPanel Margin="1480,50,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Rectangle Style="{StaticResource elementPlaceholder}"/>
+            <Button Style="{local:MultiStyle elementButton otherNonMetalColor}" Content="C"/>
+            <Button Style="{local:MultiStyle elementButton metalloidsColor}" Content="Si"/>
+            <Button Style="{local:MultiStyle elementButton metalloidsColor}" Content="Ge"/>
+            <Button Style="{local:MultiStyle elementButton postTransitionMetalsColor}" Content="Sn"/>
+            <Button Style="{local:MultiStyle elementButton postTransitionMetalsColor}" Content="Pb"/>
+            <Button Style="{local:MultiStyle elementButton postTransitionMetalsColor}" Content="Fl"/>
+            <Button Style="{local:MultiStyle elementButton lanthanoidsColor}" Content="Ho"/>
+            <Button Style="{local:MultiStyle elementButton actinoidsColor}" Content="Es"/>
+        </StackPanel>
+        <StackPanel Margin="1590,50,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Rectangle Style="{StaticResource elementPlaceholder}"/>
+            <Button Style="{local:MultiStyle elementButton otherNonMetalColor}" Content="N"/>
+            <Button Style="{local:MultiStyle elementButton otherNonMetalColor}" Content="P"/>
+            <Button Style="{local:MultiStyle elementButton metalloidsColor}" Content="As"/>
+            <Button Style="{local:MultiStyle elementButton metalloidsColor}" Content="Sb"/>
+            <Button Style="{local:MultiStyle elementButton postTransitionMetalsColor}" Content="Bi"/>
+            <Button Style="{local:MultiStyle elementButton postTransitionMetalsColor}" Content="Uup"/>
+            <Button Style="{local:MultiStyle elementButton lanthanoidsColor}" Content="Er"/>
+            <Button Style="{local:MultiStyle elementButton actinoidsColor}" Content="Fm"/>
+        </StackPanel>
+        <StackPanel Margin="1700,50,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Rectangle Style="{StaticResource elementPlaceholder}"/>
+            <Button Style="{local:MultiStyle elementButton otherNonMetalColor}" Content="O"/>
+            <Button Style="{local:MultiStyle elementButton otherNonMetalColor}" Content="S"/>
+            <Button Style="{local:MultiStyle elementButton otherNonMetalColor}" Content="Se"/>
+            <Button Style="{local:MultiStyle elementButton metalloidsColor}" Content="Te"/>
+            <Button Style="{local:MultiStyle elementButton metalloidsColor}" Content="Po"/>
+            <Button Style="{local:MultiStyle elementButton postTransitionMetalsColor}" Content="Lv"/>
+            <Button Style="{local:MultiStyle elementButton lanthanoidsColor}" Content="Tm"/>
+            <Button Style="{local:MultiStyle elementButton actinoidsColor}" Content="Md"/>
+        </StackPanel>
+        <StackPanel Margin="1810,50,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Rectangle Style="{StaticResource elementPlaceholder}"/>
+            <Button Style="{local:MultiStyle elementButton halogensColor}" Content="F"/>
+            <Button Style="{local:MultiStyle elementButton halogensColor}" Content="Cl"/>
+            <Button Style="{local:MultiStyle elementButton halogensColor}" Content="Br"/>
+            <Button Style="{local:MultiStyle elementButton halogensColor}" Content="I"/>
+            <Button Style="{local:MultiStyle elementButton halogensColor}" Content="At"/>
+            <Button Style="{local:MultiStyle elementButton halogensColor}" Content="Uus"/>
+            <Button Style="{local:MultiStyle elementButton lanthanoidsColor}" Content="Yb"/>
+            <Button Style="{local:MultiStyle elementButton actinoidsColor}" Content="No"/>
+        </StackPanel>
+        <StackPanel Margin="1920,50,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Button Style="{local:MultiStyle elementButton nobleGasesColor}" Content="He"/>
+            <Button Style="{local:MultiStyle elementButton nobleGasesColor}" Content="Ne"/>
+            <Button Style="{local:MultiStyle elementButton nobleGasesColor}" Content="Ar"/>
+            <Button Style="{local:MultiStyle elementButton nobleGasesColor}" Content="Kr"/>
+            <Button Style="{local:MultiStyle elementButton nobleGasesColor}" Content="Xe"/>
+            <Button Style="{local:MultiStyle elementButton nobleGasesColor}" Content="Rn"/>
+            <Button Style="{local:MultiStyle elementButton nobleGasesColor}" Content="Uuo"/>
+            <Button Style="{local:MultiStyle elementButton lanthanoidsColor}" Content="Lu"/>
+            <Button Style="{local:MultiStyle elementButton actinoidsColor}" Content="Lr"/>
+        </StackPanel>
+    </Grid>
+</Window>

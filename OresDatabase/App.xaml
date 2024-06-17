@@ -1,0 +1,70 @@
+﻿<Application x:Class="OresDatabase.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:OresDatabase"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="Rectangle" x:Key="elementPlaceholder">
+            <Setter Property="Width" Value="100"/>
+            <Setter Property="Height" Value="100"/>
+            <Setter Property="Margin" Value="0,0,0,10"/>
+        </Style>
+        <Style TargetType="Button" x:Key="elementButton">
+            <Setter Property="Margin" Value="0,0,0,10"/>
+            <Setter Property="FontSize" Value="32"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Focusable" Value="False"/>
+            <Setter Property="BorderBrush" Value="{x:Null}"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Top"/>
+            <Setter Property="Width" Value="100"/>
+            <Setter Property="Height" Value="100"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="5" Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style TargetType="Button" x:Key="halogensColor">
+            <Setter Property="Background" Value="#FF88FF25"/>
+        </Style>
+        <Style TargetType="Button" x:Key="nobleGasesColor">
+            <Setter Property="Background" Value="#FF2999DE"/>
+        </Style>
+        <Style TargetType="Button" x:Key="otherNonMetalColor">
+            <Setter Property="Background" Value="#FF50DA01"/>
+        </Style>
+        <Style TargetType="Button" x:Key="alkaliMetalsColor">
+            <Setter Property="Background" Value="#FFF1B90A"/>
+        </Style>
+        <Style TargetType="Button" x:Key="alkaliEarthMetalsColor">
+            <Setter Property="Background" Value="#FFDCDC0E"/>
+        </Style>
+        <Style TargetType="Button" x:Key="metalloidsColor">
+            <Setter Property="Background" Value="#FF2DB844"/>
+        </Style>
+        <Style TargetType="Button" x:Key="transitionMetalsColor">
+            <Setter Property="Background" Value="#FF7CC5E0"/>
+        </Style>
+        <Style TargetType="Button" x:Key="postTransitionMetalsColor">
+            <Setter Property="Background" Value="#FF1FC590"/>
+        </Style>
+        <Style TargetType="Button" x:Key="lanthanoidsColor">
+            <Setter Property="Background" Value="#FFE64897"/>
+        </Style>
+        <Style TargetType="Button" x:Key="actinoidsColor">
+            <Setter Property="Background" Value="#FF7255BF"/>
+        </Style>
+        <Style TargetType="Button" x:Key="unknownTypeColor">
+            <Setter Property="Background" Value="#FFD2D2D2"/>
+        </Style>
+        <Style TargetType="Image" x:Key="radioactiveIconOpacity">
+            <Setter Property="Opacity" Value="0.1"/>
+        </Style>
+    </Application.Resources>
+</Application>
