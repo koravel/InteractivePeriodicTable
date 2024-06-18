@@ -9,18 +9,30 @@
             <Setter Property="Height" Value="100"/>
             <Setter Property="Margin" Value="0,0,0,10"/>
         </Style>
+        <Style TargetType="TextBlock" x:Key="elementNumber">
+            <Setter Property="Width" Value="30"/>
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Top"/>
+            <Setter Property="FontFamily" Value="Verdana"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="TextAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="3"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+        </Style>
         <Style TargetType="Button" x:Key="elementButton">
             <Setter Property="Margin" Value="0,0,0,10"/>
+            <Setter Property="FontFamily" Value="Verdana"/>
             <Setter Property="FontSize" Value="32"/>
             <Setter Property="FontWeight" Value="Bold"/>
             <Setter Property="Focusable" Value="False"/>
-            <Setter Property="BorderBrush" Value="{x:Null}"/>
             <Setter Property="HorizontalAlignment" Value="Left"/>
             <Setter Property="VerticalAlignment" Value="Top"/>
             <Setter Property="Width" Value="100"/>
             <Setter Property="Height" Value="100"/>
             <Setter Property="Foreground" Value="Black"/>
-            <Setter Property="Template">
+            <Setter Property="BorderThickness" Value="3"/>
+            <!-- <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="Button">
                         <Border CornerRadius="5" Background="{TemplateBinding Background}">
@@ -28,40 +40,40 @@
                         </Border>
                     </ControlTemplate>
                 </Setter.Value>
-            </Setter>
+            </Setter> -->
         </Style>
         <Style TargetType="Button" x:Key="halogensColor">
-            <Setter Property="Background" Value="#FF88FF25"/>
+            <Setter Property="BorderBrush" Value="#e36c96"/>
         </Style>
         <Style TargetType="Button" x:Key="nobleGasesColor">
-            <Setter Property="Background" Value="#FF2999DE"/>
+            <Setter Property="BorderBrush" Value="#9654a9"/>
         </Style>
         <Style TargetType="Button" x:Key="otherNonMetalColor">
-            <Setter Property="Background" Value="#FF50DA01"/>
+            <Setter Property="BorderBrush" Value="#3092db"/>
         </Style>
         <Style TargetType="Button" x:Key="alkaliMetalsColor">
-            <Setter Property="Background" Value="#FFF1B90A"/>
+            <Setter Property="BorderBrush" Value="#df4e3e"/>
         </Style>
         <Style TargetType="Button" x:Key="alkaliEarthMetalsColor">
-            <Setter Property="Background" Value="#FFDCDC0E"/>
+            <Setter Property="BorderBrush" Value="#e57211"/>
         </Style>
         <Style TargetType="Button" x:Key="metalloidsColor">
-            <Setter Property="Background" Value="#FF2DB844"/>
+            <Setter Property="BorderBrush" Value="#0da389"/> 
         </Style>
         <Style TargetType="Button" x:Key="transitionMetalsColor">
-            <Setter Property="Background" Value="#FF7CC5E0"/>
+            <Setter Property="BorderBrush" Value="#efbe17"/>
         </Style>
         <Style TargetType="Button" x:Key="postTransitionMetalsColor">
-            <Setter Property="Background" Value="#FF1FC590"/>
+            <Setter Property="BorderBrush" Value="#32ce77"/>
         </Style>
         <Style TargetType="Button" x:Key="lanthanoidsColor">
-            <Setter Property="Background" Value="#FFE64897"/>
+            <Setter Property="BorderBrush" Value="#1db356"/>
         </Style>
         <Style TargetType="Button" x:Key="actinoidsColor">
-            <Setter Property="Background" Value="#FF7255BF"/>
+            <Setter Property="BorderBrush" Value="#17b998"/>
         </Style>
         <Style TargetType="Button" x:Key="unknownTypeColor">
-            <Setter Property="Background" Value="#FFD2D2D2"/>
+            <Setter Property="BorderBrush" Value="#FFD2D2D2"/>
         </Style>
         <Style TargetType="Image" x:Key="radioactiveIconOpacity">
             <Setter Property="Opacity" Value="0.1"/>

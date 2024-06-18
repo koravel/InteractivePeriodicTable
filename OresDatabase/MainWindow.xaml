@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:OresDatabase"
+        xmlns:customcontrol="clr-namespace:OresDatabase.CustomControl"
         mc:Ignorable="d"
         Title="MainWindow" Height="1080" Width="2080" Background="#252525">
     <Grid>
@@ -38,23 +39,23 @@
             <Rectangle Style="{StaticResource elementPlaceholder}"/>
             <Rectangle Style="{StaticResource elementPlaceholder}"/>
             <Rectangle Style="{StaticResource elementPlaceholder}"/>
-            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Ti"/>
-            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Zr"/>
-            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Hf"/>
-            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Rf"/>
-            <Button Style="{local:MultiStyle elementButton lanthanoidsColor}" Content="La"/>
-            <Button Style="{local:MultiStyle elementButton actinoidsColor}" Content="Ac"/>
+            <customcontrol:ElementButton ElementStyleProperty="{local:MultiStyle elementButton transitionMetalsColor}" ElementTextProperty="Ti" ElementNumberProperty="22"/>
+            <customcontrol:ElementButton ElementStyleProperty="{local:MultiStyle elementButton transitionMetalsColor}" ElementTextProperty="Zr" ElementNumberProperty="40"/>
+            <customcontrol:ElementButton ElementStyleProperty="{local:MultiStyle elementButton transitionMetalsColor}" ElementTextProperty="Hf" ElementNumberProperty="72"/>
+            <customcontrol:ElementButton ElementStyleProperty="{local:MultiStyle elementButton transitionMetalsColor}" ElementTextProperty="Rf" ElementNumberProperty="104"/>
+            <customcontrol:ElementButton ElementStyleProperty="{local:MultiStyle elementButton lanthanoidsColor}" ElementTextProperty="La" ElementNumberProperty="57"/>
+            <customcontrol:ElementButton ElementStyleProperty="{local:MultiStyle elementButton actinoidsColor}" ElementTextProperty="Ac" ElementNumberProperty="89"/>
         </StackPanel>
         <StackPanel Margin="490,50,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
             <Rectangle Style="{StaticResource elementPlaceholder}"/>
             <Rectangle Style="{StaticResource elementPlaceholder}"/>
             <Rectangle Style="{StaticResource elementPlaceholder}"/>
-            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="V"/>
-            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Nb"/>
-            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Ta"/>
-            <Button Style="{local:MultiStyle elementButton transitionMetalsColor}" Content="Db"/>
-            <Button Style="{local:MultiStyle elementButton lanthanoidsColor}" Content="Ce"/>
-            <Button Style="{local:MultiStyle elementButton actinoidsColor}" Content="Th"/>
+            <customcontrol:ElementButton ElementStyleProperty="{local:MultiStyle elementButton transitionMetalsColor}" ElementTextProperty="V" ElementNumberProperty="23"/>
+            <customcontrol:ElementButton ElementStyleProperty="{local:MultiStyle elementButton transitionMetalsColor}" ElementTextProperty="Nb" ElementNumberProperty="41"/>
+            <customcontrol:ElementButton ElementStyleProperty="{local:MultiStyle elementButton transitionMetalsColor}" ElementTextProperty="Ta" ElementNumberProperty="73"/>
+            <customcontrol:ElementButton ElementStyleProperty="{local:MultiStyle elementButton transitionMetalsColor}" ElementTextProperty="Db" ElementNumberProperty="105"/>
+            <customcontrol:ElementButton ElementStyleProperty="{local:MultiStyle elementButton lanthanoidsColor}" ElementTextProperty="Ce" ElementNumberProperty="58"/>
+            <customcontrol:ElementButton ElementStyleProperty="{local:MultiStyle elementButton actinoidsColor}" ElementTextProperty="Th" ElementNumberProperty="90"/>
         </StackPanel>
         <StackPanel Margin="600,50,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
             <Rectangle Style="{StaticResource elementPlaceholder}"/>
@@ -168,7 +169,10 @@
         </StackPanel>
         <StackPanel Margin="1700,50,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
             <Rectangle Style="{StaticResource elementPlaceholder}"/>
-            <Button Style="{local:MultiStyle elementButton otherNonMetalColor}" Content="O"/>
+            <Border BorderThickness="3" CornerRadius="16" BorderBrush="Aqua" Margin="0,0,0,10">
+                <Button Style="{local:MultiStyle elementButton otherNonMetalColor}" Margin="0,0,0,0" Content="O" Foreground="AliceBlue" Background="{x:Null}" BorderBrush="{x:Null}"/>
+            </Border>
+            
             <Button Style="{local:MultiStyle elementButton otherNonMetalColor}" Content="S"/>
             <Button Style="{local:MultiStyle elementButton otherNonMetalColor}" Content="Se"/>
             <Button Style="{local:MultiStyle elementButton metalloidsColor}" Content="Te"/>
